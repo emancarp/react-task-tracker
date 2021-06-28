@@ -12,10 +12,8 @@ const Header = ({title}) => {
             <Button 
                 text='Add' 
                 onClick={onClick}
-                >
-            </Button>
+            />
            
-
        </header>
     )
 }
