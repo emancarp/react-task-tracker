@@ -3,8 +3,11 @@
 import './App.css';
 import Tasks from './components/Tasks'
 import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './components/About'
 import AddTask from './components/AddTask'
 import {useState, useEffect} from 'react'
+import { BrowserRouter as Router,Route} from 'react-router-dom'
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false)
